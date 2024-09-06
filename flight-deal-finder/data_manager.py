@@ -8,7 +8,7 @@ SHEETY_URL=os.getenv("SHEETY_URL")
 
 class DataManager:
     #This class is responsible for talking to the Google Sheet.
-    def apiCall(self):
+    def api_call(self):
         response = requests.get(url=SHEETY_URL)
         data = response.json()
         pprint(data)
