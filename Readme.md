@@ -1,3 +1,3 @@
 # Python Projects
 
-- for requirements.txt run pip freeze > requirements.txt
+- for requirements.txt run pip3 freeze > requirements.txt
